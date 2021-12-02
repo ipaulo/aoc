@@ -4,4 +4,6 @@
 
 ## Other Python AOC repos
 
-https://github.com/mebeim/aoc
+- https://github.com/mcpower/adventofcode/tree/master/2021
+- https://github.com/mebeim/aoc
+

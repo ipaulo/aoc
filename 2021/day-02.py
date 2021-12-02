@@ -8,14 +8,14 @@ f = depth = 0
 
 for i in key:
     x, y = i.split()
-
+    y = int(y)
     if x == "forward":
-        f += int(y)
+        f += y
     else:
         if x == "down":
-            depth += int(y)
+            depth += y
         else:
-            depth -= int(y)
+            depth -= y
 
 ans1 = f * depth
 print("Part 1 Answer = ", ans1)
@@ -24,15 +24,16 @@ f = depth = aim = 0
 
 for i in key:
     x, y = i.split()
+    y = int(y)
 
     if x == "forward":
-        f += int(y)
-        depth = depth + int(y) * aim
+        f += y
+        depth = depth + y * aim
     else:
         if x == "down":
-            aim += int(y)
+            aim += y
         else:
-            aim -= int(y)
+            aim -= y
 ans2 = f * depth
 
 print("Part 2 Answer = ", ans2)
