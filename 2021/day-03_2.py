@@ -1,6 +1,9 @@
 # --- Day 3: Binary Diagnostic ---
+# Part 2
+
 
 # https://note.nkmk.me/en/python-numpy-where/
+# http://jalammar.github.io/visual-numpy/
 
 from aocd import get_data
 import numpy as np
